@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "files-versioning-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filesVersioning/FilesVersioningWebPart.js",
+          "manifest": "./src/webparts/filesVersioning/FilesVersioningWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FilesVersioningWebPartStrings": "lib/webparts/filesVersioning/loc/{locale}.js"
+  }
+}

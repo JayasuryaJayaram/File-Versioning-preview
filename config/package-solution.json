@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "files-versioning-client-side-solution",
+    "id": "e36fbce1-6334-4335-aeae-f4a3247eb67f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Files Versioning description"
+      },
+      "longDescription": {
+        "default": "Files Versioning description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "files-versioning Feature",
+        "description": "The feature that activates elements of the files-versioning solution.",
+        "id": "c42c5ab9-92f8-4ec0-940b-8819ec2d6832",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/files-versioning.sppkg"
+  }
+}
